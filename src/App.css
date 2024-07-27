@@ -1,0 +1,12 @@
+.rmdp-input::placeholder {
+  color: #878CBD ;
+}
+
+.rmdp-input {
+  padding: 20px 13px 20px 45px !important;
+  height: 100% !important;
+}
+[dir="rtl"] .rmdp-input {
+  padding: 13px 45px 13px 13px !important;
+  height: 100% !important;
+}
