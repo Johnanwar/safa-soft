@@ -57,6 +57,7 @@ function SecondStepForm() {
         <CustomTextField
           name="company_phone"
           label="Phone Number"
+          preventedChars={['e', '.' ,',']}
           placeholder="Enter your phone number"
           type="number"
           InputProps={{
@@ -71,6 +72,7 @@ function SecondStepForm() {
         <CustomTextField
           name="phoneNumber"
           label="Phone Number"
+          preventedChars={['e', '.' ,',']}
           placeholder="Enter your phone number"
           type="number"
           InputProps={{

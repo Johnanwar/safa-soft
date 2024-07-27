@@ -9,6 +9,7 @@ function FirstStepForm() {
   return (
     <Stack spacing={2.5}>
       <CustomTextField
+      preventedChars={[',']}
         name="fullName"
         label="full name"
         placeholder="Enter your full name"
@@ -22,6 +23,7 @@ function FirstStepForm() {
 
       <CustomTextField
         name="phoneNumber"
+        preventedChars={['e', '.' ,',']}
         label="Phone Number"
         placeholder="Enter your phone number"
         type="number"

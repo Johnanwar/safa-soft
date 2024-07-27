@@ -3,6 +3,7 @@ import { inputBaseClasses } from '@mui/material/InputBase';
 import { inputLabelClasses } from '@mui/material/InputLabel';
 import { filledInputClasses } from '@mui/material/FilledInput';
 import { outlinedInputClasses } from '@mui/material/OutlinedInput';
+import { pickersDayClasses } from '@mui/lab';
 
 // ----------------------------------------------------------------------
 
